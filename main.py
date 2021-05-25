@@ -5,8 +5,8 @@ import playsound                 #pip install playsoud
 
 recognizer = sr.Recognizer()
 translator = googletrans.Translator()
-input_lang = 'fr-FR'
-output_lang = 'en'
+input_lang = 'en-IN'
+output_lang = 'Fr'
 try:
     with sr.Microphone() as source:
         print('Speak Now')
