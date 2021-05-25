@@ -19,6 +19,6 @@ except:
 translated = translator.translate(text, dest=output_lang)
 print(translated.text)
 converted_audio = gtts.gTTS(translated.text, lang=output_lang)
-converted_audio.save('romantic.mp3')
-playsound.playsound('romantic.mp3')
+converted_audio.save('File name')
+playsound.playsound('File name')
 # print(googletrans.LANGUAGES)
